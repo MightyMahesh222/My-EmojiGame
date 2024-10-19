@@ -1,0 +1,65 @@
+/* Write your code here. */
+@media (max-width: 920px) {
+    .emojisDiv {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-self: center;
+      padding: 2vh;
+    }
+  
+    .emojiDiv {
+      background-color: #ffffff22;
+      margin: 5px;
+      padding: 5%;
+      border-radius: 10px;
+      border: 2px solid #ffffff30;
+      cursor: pointer;
+      list-style-type: none;
+      box-shadow: 0px 0px 10px blue, 0px 0px 20px grey, 0px 0px 20px grey,
+        inset 0px 0px 10px grey, inset 0px 0px 20px grey, inset 0px 0px 20px grey;
+    }
+    .img {
+      height: 7vw;
+      background-color: transparent;
+      border-radius: 30%;
+      box-shadow: 0px 0px 10px grey, 0px 0px 20px grey, 0px 0px 20px grey,
+        inset 0px 0px 10px grey, inset 0px 0px 20px grey, inset 0px 0px 20px grey;
+    }
+  }
+  
+  @media (min-width: 920px) {
+    .emojisDiv1 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-self: center;
+      padding: 2vh;
+      padding: 0vh 20vw;
+    }
+  
+    .emojiDiv1 {
+      background-color: #ffffff33;
+      margin: 5px;
+      padding: 3%;
+      border-radius: 10px;
+      border: 2px solid #ffffff30;
+      cursor: pointer;
+      list-style-type: none;
+      box-shadow: 0px 0px 10px blue, 0px 0px 20px grey, 0px 0px 20px grey,
+        inset 0px 0px 10px grey, inset 0px 0px 20px grey, inset 0px 0px 20px grey;
+    }
+  
+    .img1 {
+      height: 5vw;
+      background-color: transparent;
+    }
+  }
+  
+  .imgButton {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  

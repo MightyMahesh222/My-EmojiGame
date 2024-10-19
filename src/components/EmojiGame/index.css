@@ -1,0 +1,36 @@
+/* Write your code here. */
+.mainDiv {
+    background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+    font-family: 'Roboto';
+    margin: 0vh;
+    text-align: center;
+    padding-bottom: 6vh;
+    min-height:100vh ;
+  }
+  .emojisDiv {
+    display: flex;
+    margin: 5vh;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  @media (max-width: 920px) {
+    .name {
+      font-size: 5vw;
+      padding-top: 2vw;
+      text-shadow: 1px 1px 10px red;
+      letter-spacing: 1px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  }
+  
+  @media (min-width: 920px) {
+    .name1 {
+      font-size: 3vw;
+      text-shadow: 1px 1px 10px red;
+      letter-spacing: 1px;
+      padding-top: 1vw;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+  }
+  

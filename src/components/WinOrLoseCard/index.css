@@ -1,0 +1,116 @@
+/* Write your code here. */
+* {
+    font-family: 'Roboto';
+  }
+  
+  .resultDiv {
+    display: flex;
+    background-color: #ffffff33;
+    margin: 5% 10%;
+    padding: 2vw;
+    height: 70vh;
+    justify-content: center;
+    align-self: center;
+    border-radius: 10px;
+    border: 2px solid #ffffff30;
+    box-shadow: 0px 0px 10px black, 0px 0px 30px black, 0px 0px 40px black,
+      inset 0px 0px 10px black, inset 0px 0px 30px black, inset 0px 0px 40px black;
+  }
+
+  .better{
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow:1px 1px 10px  black;
+  }
+  
+  .winLoseImg {
+    height: 80%;
+    width: 50%;
+    margin: 10%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  @media (min-width: 767px) {
+    .result {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 50%;
+      align-self: center;
+    }
+  }
+  @media (max-width: 767px) {
+    .result {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-self: center;
+    }
+  }
+  @media (min-width: 767px) {
+    .forImage {
+      width: 50%;
+    }
+  }
+  @media (max-width: 767px) {
+    .forImage {
+      width: 50%;
+      display: none;
+    }
+  }
+  .marks {
+    color: #2f1cdf;
+    font-size: 4vw;
+    font-weight: 600;
+    margin: 0px;
+  } 
+  .p {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 700;
+    margin: 5px;
+  }
+  .playAgainButton {
+    border: none;
+    border-radius: 5px;
+    background-color: #e8bb28;
+    color: black;
+    font-weight: 600;
+    padding: 10px 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 4vh;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .playAgainButton:active{
+    transform: scale(0.9);
+  }
+  @media (min-width: 767px) {
+    .winLose {
+      font-size: 3vw;
+      margin: none;
+    }
+  }
+
+  *{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  @media (max-width: 767px) {
+    .winLose {
+      font-size: 5vw;
+      margin: none;
+      text-shadow:1px 1px 10px #3423d3;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  }
+  
+  h1 {
+    margin: none;
+  }
+  
